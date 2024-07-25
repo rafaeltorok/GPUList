@@ -13,13 +13,14 @@ h1 {
     margin: 20px;
     border: 5px solid black;
     border-style: outset;
+    padding: 10px;
 }
 
-.nvidia, .amd {
+.nvidia, .amd, .intel{
     width: 45%;
 }
 
-.nvidia h2, .amd h2 {
+.nvidia h2, .amd h2, .intel h2{
     text-align: center;
     border: 2px solid black;
     border-style: outset;
@@ -27,7 +28,7 @@ h1 {
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 1px;
 }
 
 li {
