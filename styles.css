@@ -9,7 +9,18 @@ th, td {
     padding: 15px;
 }
 
-img {
+.image-container {
+    display: flex;
+    align-items: center;
+    gap: 100px; /* Adjust the gap between images */
+}
+
+.front {
     height: auto;
     width: 500px;
+}
+
+.core {
+    height: auto;
+    width: 275px;
 }
