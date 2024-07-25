@@ -1,45 +1,49 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: serif, sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
+    color: #ffffff;
     text-align: center;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .gpu-tables {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    padding: 20px;
+}
+
+.gpu-tables div {
+    flex: 1;
     margin: 20px;
-    border: 5px solid black;
-    border-style: outset;
-    padding: 10px;
-}
-
-.nvidia, .amd, .intel{
-    width: 45%;
-}
-
-.nvidia h2, .amd h2, .intel h2{
-    text-align: center;
-    border: 2px solid black;
-    border-style: outset;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    min-width: 30%; /* Ensure each table has a minimum width */
+    max-width: 30%; /* Ensure each table has a maximum width */
+    box-sizing: border-box;
 }
 
 ul {
     list-style-type: none;
-    padding: 1px;
+    padding: 0;
 }
 
 li {
     margin: 5px 0;
 }
 
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-a:hover {
-    text-decoration: underline;
+h2, h3 {
+    margin: 10px 0;
 }
