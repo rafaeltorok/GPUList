@@ -17,23 +17,51 @@
             <tr>
                 <th>GPU Name</th>
                 <th>GPU Variant</th>
+                <th>Codename</th>
                 <th>Architecture</th>
                 <th>Foundry</th>
                 <th>Process Size</th>
+                <th>MCD Process</th>
+                <th>Process Type</th>
                 <th>Transistors</th>
-                <th>Density</th>
-                <th>Die Size</th>
             </tr>
             <tr>
                 <td>Navi 31</td>
                 <td>Navi 31 XTX</td>
-                <td>RDNA 3</td>
+                <td>Plum Bonito</td>
+                <td>RDNA 3.0</td>
                 <td>TSMC</td>
                 <td>5 nm</td>
+                <td>6 nm</td>
+                <td>N5 / N6 FinFET</td>
                 <td>57.7 billion</td>
-                <td>109.1M / mm²</td>
-                <td>529 mm²</td>
             </tr>
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+            <tr>
+                <th>GCD Transistors</th>
+                <th>MCD Transistors</th>
+                <th>Density</th>
+                <th>GCD Density</th>
+                <th>MCD Density</th>
+                <th>Die Size</th>
+                <th>GCD Die Size</th>
+                <th>MCD Die Size</th>
+                <th>Chip Package</th>
+            </tr>
+            <tr>
+                <td>45.4 billion</td>
+                <td>2.05 billion x6</td>
+                <td>109.1M / mm²</td>
+                <td>150.2M / mm²</td>
+                <td>54.64M / mm²</td>
+                <td>529 mm²</td>
+                <td>304.35 mm²</td>
+                <td>37.52 mm² x6</td>
+                <td>MCM</td>
+            </tr>
+
         </table>
         <h2>Graphics Card</h2>
         <table>
@@ -47,7 +75,7 @@
             <tr>
                 <td>November 3rd, 2022</td>
                 <td>December 13th, 2022</td>
-                <td>Radeon RX 7000</td>
+                <td>Navi III (RX 7000)</td>
                 <td>999 USD</td>
                 <td>PCIe 4.0 x16</td>
             </tr>
@@ -56,12 +84,14 @@
         <table>
             <tr>
                 <th>Base Clock</th>
+                <th>Shader Clock</th>
                 <th>Game Clock</th>
                 <th>Boost Clock</th>
                 <th>Memory Clock</th>
             </tr>
             <tr>
                 <td>1929 MHz</td>
+                <td>2365 MHz</td>
                 <td>2365 MHz</td>
                 <td>2498 MHz</td>
                 <td>2500 MHz<br>20 Gbps effective</td>
@@ -75,6 +105,7 @@
                 <th>ROPs</th>
                 <th>CU Count</th>
                 <th>RT Cores</th>
+                <th>L0 Cache</th>
                 <th>L1 Cache</th>
                 <th>L2 Cache</th>
                 <th>Infinity Cache</th>
@@ -85,7 +116,8 @@
                 <td>192</td>
                 <td>96</td>
                 <td>96</td>
-                <td>256 KB (per Array)</td>
+                <td>64 KB per WGP</td>
+                <td>256 KB per Array</td>
                 <td>6 MB</td>
                 <td>96 MB</td>
             </tr>
@@ -128,6 +160,7 @@
                 <th>Slot Width</th>
                 <th>Length</th>
                 <th>Width</th>
+                <th>Height</th>
                 <th>TDP</th>
                 <th>Suggested PSU</th>
                 <th>Outputs</th>
@@ -137,6 +170,7 @@
                 <td>Dual-Slot</td>
                 <td>287 mm</td>
                 <td>110 mm</td>
+                <td>51 mm</td>
                 <td>355 W</td>
                 <td>750 W</td>
                 <td>1x HDMI 2.1a <br> 2x DisplayPort 2.1 <br> 1x USB Type-C</td>
