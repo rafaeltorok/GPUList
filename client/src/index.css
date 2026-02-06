@@ -1,0 +1,105 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: serif, sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  border-style: outset;
+  margin: 10px;
+  padding: 5px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  border-style: groove;
+  padding: 15px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 100px; /* Adjust the gap between images */
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  min-width: 900px; /* Ensure each table has a minimum width */
+  max-width: 900px; /* Ensure each table has a maximum width */
+}
+
+.front {
+  height: auto;
+  width: 500px;
+}
+
+.core {
+  height: auto;
+  width: 275px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h2, h3 {
+  margin: 10px 0;
+}
+
+.gpu-tables {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.gpu-tables div {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  min-width: 30%; /* Ensure each table has a minimum width */
+  max-width: 30%; /* Ensure each table has a maximum width */
+  box-sizing: border-box;
+}
+
+.gpu-tables .nvidia {
+  color: #76b900;
+}
+
+.gpu-tables .amd {
+  color: red;
+}
+
+.gpu-tables .intel {
+  color: #0068b5;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+a {
+  font-weight: 500;
+  color: white;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #7178f8;
+}

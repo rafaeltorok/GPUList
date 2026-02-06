@@ -1,0 +1,473 @@
+{
+  "manufacturers": [
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "series": [
+        {
+          "id": "gtx-10",
+          "name": "GeForce 10 Series",
+          "cards": [
+            {
+              "id": "gtx-1060",
+              "model": "NVIDIA GeForce GTX 1060",
+              "images": {
+                "front": "/images/nvidia/10series/front/gtx1060.jpg",
+                "core": "/images/nvidia/10series/core/gtx1060.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GP106",
+                "gpuVariant": "GP106-400-A1",
+                "architecture": "Pascal",
+                "foundry": "TSMC",
+                "processSize": "16 nm",
+                "transistors": "4,400 million",
+                "density": "22M / mm²",
+                "dieSize": "200 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "July 19th, 2016",
+                "availability": "July 19th, 2016",
+                "generation": "GeForce 10",
+                "launchPrice": "299 USD",
+                "busInterface": "PCIe 3.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1506 MHz",
+                "boostClock": "1709 MHz",
+                "memoryClock": "2002 MHz",
+                "memoryClockEffective": "8 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "1280",
+                "tmus": "80",
+                "rops": "48",
+                "smCount": "10",
+                "tensorCores": "N/A",
+                "rtCores": "N/A",
+                "l1Cache": "48 KB (per SM)",
+                "l2Cache": "1.5 MB"
+              },
+              "memory": {
+                "memorySize": "6 GB",
+                "memoryType": "GDDR5",
+                "memoryBus": "192 bit",
+                "bandwidth": "192.2 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "82.03 GPixel/s",
+                "textureRate": "136.7 GTexel/s",
+                "fp16Half": "68.36 GFLOPS (1:64)",
+                "fp32Float": "4.375 TFLOPS",
+                "fp64Double": "136.7 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "250 mm",
+                "width": "111 mm",
+                "height": "N/A",
+                "tdp": "120 W",
+                "suggestedPsu": "300 W",
+                "outputs": [
+                  "1x DVI",
+                  "1x HDMI 2.0",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 6-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 (12_1)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "6.1",
+                "shaderModel": "6.7"
+              }
+            },
+            {
+              "id": "gtx-1080-ti",
+              "model": "NVIDIA GeForce GTX 1080 Ti",
+              "images": {
+                "front": "/images/nvidia/10series/front/gtx1080ti.jpg",
+                "core": "/images/nvidia/10series/core/gtx1080ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GP102",
+                "gpuVariant": "GP102-350-K1-A1",
+                "architecture": "Pascal",
+                "foundry": "TSMC",
+                "processSize": "16 nm",
+                "transistors": "11,800 million",
+                "density": "25.1M / mm²",
+                "dieSize": "471 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "March 10th, 2017",
+                "availability": "March 10th, 2017",
+                "generation": "GeForce 10",
+                "launchPrice": "699 USD",
+                "busInterface": "PCIe 3.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1481 MHz",
+                "boostClock": "1582 MHz",
+                "memoryClock": "1376 MHz",
+                "memoryClockEffective": "11 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3584",
+                "tmus": "24",
+                "rops": "188",
+                "smCount": "28",
+                "tensorCores": "N/A",
+                "rtCores": "N/A",
+                "l1Cache": "48 KB (per SM)",
+                "l2Cache": "2.75 MB"
+              },
+              "memory": {
+                "memorySize": "11 GB",
+                "memoryType": "GDDR5X",
+                "memoryBus": "384 bit",
+                "bandwidth": "484.4 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "139.2 GPixel/s",
+                "textureRate": "354.4 GTexel/s",
+                "fp16Half": "172.2 TFLOPS (1:64)",
+                "fp32Float": "11.34 TFLOPS",
+                "fp64Double": "354.4 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "267 mm",
+                "width": "40 mm",
+                "height": "N/A",
+                "tdp": "250 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.0",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 6-pin + 1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 (12_1)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "6.1",
+                "shaderModel": "6.7"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rtx-20",
+          "name": "GeForce 20 Series",
+          "cards": [
+            {
+              "id": "rtx-2060",
+              "model": "NVIDIA GeForce RTX 2060",
+              "images": {
+                "front": "/images/nvidia/20series/front/rtx2060.jpg",
+                "core": "/images/nvidia/20series/core/rtx2060.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "TU106",
+                "gpuVariant": "TU106-200A-KA-A1",
+                "architecture": "Turing",
+                "foundry": "TSMC",
+                "processSize": "12 nm",
+                "transistors": "10,800 million",
+                "density": "24.3M / mm²",
+                "dieSize": "445 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 7th, 2019",
+                "availability": "January 15th, 2019",
+                "generation": "GeForce 20",
+                "launchPrice": "349 USD",
+                "busInterface": "PCIe 3.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1365 MHz",
+                "boostClock": "1680 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "1920",
+                "tmus": "120",
+                "rops": "48",
+                "smCount": "30",
+                "tensorCores": "240",
+                "rtCores": "30",
+                "l1Cache": "64 KB (per SM)",
+                "l2Cache": "3 MB"
+              },
+              "memory": {
+                "memorySize": "6 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "192 bit",
+                "bandwidth": "336.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "80.64 GPixel/s",
+                "textureRate": "201.6 GTexel/s",
+                "fp16Half": "12.90 TFLOPS (2:1)",
+                "fp32Float": "6.451 TFLOPS",
+                "fp64Double": "201.6 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "229 mm",
+                "width": "113 mm",
+                "height": "35 mm",
+                "tdp": "160 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x DVI",
+                  "1x HDMI 2.0",
+                  "2x DisplayPort 1.4a",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "7.5",
+                "shaderModel": "6.7"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rtx-30",
+          "name": "GeForce 30 Series",
+          "cards": [
+            {
+              "id": "rtx-3060",
+              "model": "NVIDIA GeForce RTX 3060",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3060.jpg",
+                "core": "/images/nvidia/30series/core/rtx3060.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA106",
+                "gpuVariant": "GA106-300-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "12,000 million",
+                "density": "43.5M / mm²",
+                "dieSize": "276 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 21th, 2021",
+                "availability": "February 25th, 2021",
+                "generation": "GeForce 30",
+                "launchPrice": "329 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1320 MHz",
+                "boostClock": "1777 MHz",
+                "memoryClock": "1875 MHz",
+                "memoryClockEffective": "15 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3584",
+                "tmus": "112",
+                "rops": "48",
+                "smCount": "28",
+                "tensorCores": "112",
+                "rtCores": "28",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "3 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "192 bit",
+                "bandwidth": "360.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "85.30 GPixel/s",
+                "textureRate": "199.0 GTexel/s",
+                "fp16Half": "12.74 TFLOPS (1:1)",
+                "fp32Float": "12.74 TFLOPS",
+                "fp64Double": "199 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "242 mm",
+                "width": "112 mm",
+                "height": "N/A",
+                "tdp": "170 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.6",
+                "shaderModel": "6.7"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rtx-40",
+          "name": "GeForce 40 Series",
+          "cards": [
+            {
+              "id": "rtx-4090",
+              "model": "NVIDIA GeForce RTX 4090",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4090.jpg",
+                "core": "/images/nvidia/40series/core/rtx4090.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD102",
+                "gpuVariant": "AD102-300-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "76,300 million",
+                "density": "125.3M / mm²",
+                "dieSize": "609 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "September 20th, 2022",
+                "availability": "October 12th, 2022",
+                "generation": "GeForce 40",
+                "launchPrice": "1599 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2235 MHz",
+                "boostClock": "2520 MHz",
+                "memoryClock": "1313 MHz",
+                "memoryClockEffective": "21 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "16384",
+                "tmus": "512",
+                "rops": "172",
+                "smCount": "128",
+                "tensorCores": "512",
+                "rtCores": "128",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "72 MB"
+              },
+              "memory": {
+                "memorySize": "24 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "384 bit",
+                "bandwidth": "1008 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "443.5 GPixel/s",
+                "textureRate": "1290.0 GTexel/s",
+                "fp16Half": "82.58 TFLOPS (1:1)",
+                "fp32Float": "82.58 TFLOPS",
+                "fp64Double": "1290 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-Slot",
+                "length": "304 mm",
+                "width": "137 mm",
+                "height": "61 mm",
+                "tdp": "450 W",
+                "suggestedPsu": "850 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.7"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rtx-50",
+          "name": "GeForce 50 Series",
+          "cards": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "series": [
+        {
+          "id": "rx-5000",
+          "name": "Radeon RX 5000 Series",
+          "cards": [
+
+          ]
+        },
+        {
+          "id": "rx-6000",
+          "name": "Radeon RX 6000 Series",
+          "cards": [
+
+          ]
+        },
+        {
+          "id": "rx-7000",
+          "name": "Radeon RX 7000 Series",
+          "cards": [
+            
+          ]
+        },
+        {
+          "id": "rx-9000",
+          "name": "Radeon RX 9000 Series",
+          "cards": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "series": [
+        {
+          "id": "arc-a-series",
+          "name": "Arc A-Series",
+          "cards": [
+
+          ]
+        },
+        {
+          "id": "arc-b-series",
+          "name": "Arc B-Series",
+          "cards": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}
