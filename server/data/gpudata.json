@@ -166,8 +166,8 @@
           "name": "GeForce 20 Series",
           "cards": [
             {
-              "id": "rtx-2060",
-              "model": "NVIDIA GeForce RTX 2060",
+              "id": "rtx-2060-6gb",
+              "model": "NVIDIA GeForce RTX 2060 6GB",
               "images": {
                 "front": "/images/nvidia/20series/front/rtx2060.jpg",
                 "core": "/images/nvidia/20series/core/rtx2060.jpg"
@@ -327,8 +327,8 @@
               "id": "rtx-3050-8gb",
               "model": "NVIDIA GeForce RTX 3050 8 GB",
               "images": {
-                "front": "/images/nvidia/30series/front/rtx3060.jpg",
-                "core": "/images/nvidia/30series/core/rtx3050.jpg"
+                "front": "/images/nvidia/30series/front/rtx3050-8gb.jpg",
+                "core": "/images/nvidia/30series/core/rtx3050-8gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "GA106",
@@ -399,11 +399,11 @@
               }
             },
             {
-              "id": "rtx-3060",
+              "id": "rtx-3060-8gb",
               "model": "NVIDIA GeForce RTX 3060 8GB",
               "images": {
-                "front": "/images/nvidia/30series/front/rtx3060.jpg",
-                "core": "/images/nvidia/30series/core/rtx30608gb.jpg"
+                "front": "/images/nvidia/30series/front/rtx3060-8gb.jpg",
+                "core": "/images/nvidia/30series/core/rtx3060-8gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "GA106",
@@ -474,11 +474,11 @@
               }
             },
             {
-              "id": "rtx-3060",
+              "id": "rtx-3060-12gb",
               "model": "NVIDIA GeForce RTX 3060 12GB",
               "images": {
-                "front": "/images/nvidia/30series/front/rtx3060.jpg",
-                "core": "/images/nvidia/30series/core/rtx3060.jpg"
+                "front": "/images/nvidia/30series/front/rtx3060-12gb.jpg",
+                "core": "/images/nvidia/30series/core/rtx3060-12gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "GA106",
@@ -552,7 +552,7 @@
               "id": "rtx-3060-ti",
               "model": "NVIDIA GeForce RTX 3060 Ti",
               "images": {
-                "front": "/images/nvidia/30series/front/rtx3060.jpg",
+                "front": "/images/nvidia/30series/front/rtx3060ti.jpg",
                 "core": "/images/nvidia/30series/core/rtx3060ti.jpg"
               },
               "graphicsProcessor": {
@@ -774,11 +774,11 @@
               }
             },
             {
-              "id": "rtx-3080",
-              "model": "NVIDIA GeForce RTX 3080",
+              "id": "rtx-3080-10gb",
+              "model": "NVIDIA GeForce RTX 3080 10GB",
               "images": {
-                "front": "/images/nvidia/30series/front/rtx3080.jpg",
-                "core": "/images/nvidia/30series/core/rtx3080.jpg"
+                "front": "/images/nvidia/30series/front/rtx3080-10gb.jpg",
+                "core": "/images/nvidia/30series/core/rtx3080-10gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "GA102",
@@ -833,6 +833,81 @@
                 "height": "40 mm",
                 "tdp": "320 W",
                 "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3080-12gb",
+              "model": "NVIDIA GeForce RTX 3080 12GB",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3080-12gb.jpg",
+                "core": "/images/nvidia/30series/core/rtx3080-12gb.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA102",
+                "gpuVariant": "GA102-220-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "28,300 million",
+                "density": "45.1M / mm²",
+                "dieSize": "628 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 11th, 2022",
+                "availability": "N/A",
+                "generation": "GeForce 30",
+                "launchPrice": "799 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1260 MHz",
+                "boostClock": "1710 MHz",
+                "memoryClock": "1188 MHz",
+                "memoryClockEffective": "19 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "8960",
+                "tmus": "280",
+                "rops": "96",
+                "smCount": "70",
+                "tensorCores": "280",
+                "rtCores": "70",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "6 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "384 bit",
+                "bandwidth": "912.4 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "164.2 GPixel/s",
+                "textureRate": "478.8 GTexel/s",
+                "fp16Half": "30.64 TFLOPS (1:1)",
+                "fp32Float": "30.64 TFLOPS",
+                "fp64Double": "478.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "285 mm",
+                "width": "112 mm",
+                "height": "40 mm",
+                "tdp": "350 W",
+                "suggestedPsu": "750 W",
                 "outputs": [
                   "1x HDMI 2.1",
                   "3x DisplayPort 1.4a"
@@ -1083,7 +1158,7 @@
               "id": "rtx-4060",
               "model": "NVIDIA GeForce RTX 4060",
               "images": {
-                "front": "/images/nvidia/40series/front/rtx4060ti.jpg",
+                "front": "/images/nvidia/40series/front/rtx4060.jpg",
                 "core": "/images/nvidia/40series/core/rtx4060.jpg"
               },
               "graphicsProcessor": {
@@ -1158,8 +1233,8 @@
               "id": "rtx-4060-ti-8gb",
               "model": "NVIDIA GeForce RTX 4060 Ti 8 GB",
               "images": {
-                "front": "/images/nvidia/40series/front/rtx4060ti.jpg",
-                "core": "/images/nvidia/40series/core/rtx4060ti.jpg"
+                "front": "/images/nvidia/40series/front/rtx4060ti-8gb.jpg",
+                "core": "/images/nvidia/40series/core/rtx4060ti-8gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "AD106",
@@ -1233,8 +1308,8 @@
               "id": "rtx-4060-ti-16gb",
               "model": "NVIDIA GeForce RTX 4060 Ti 16 GB",
               "images": {
-                "front": "/images/nvidia/40series/front/rtx4060ti.jpg",
-                "core": "/images/nvidia/40series/core/rtx4060ti16gb.jpg"
+                "front": "/images/nvidia/40series/front/rtx4060ti-16gb.jpg",
+                "core": "/images/nvidia/40series/core/rtx4060ti-16gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "AD106",
@@ -1533,7 +1608,7 @@
               "id": "rtx-4070-ti-super",
               "model": "NVIDIA GeForce RTX 4070 Ti SUPER",
               "images": {
-                "front": "/images/nvidia/40series/front/rtx4070ti.jpg",
+                "front": "/images/nvidia/40series/front/rtx4070tisuper.jpg",
                 "core": "/images/nvidia/40series/core/rtx4070tisuper.jpg"
               },
               "graphicsProcessor": {
@@ -1839,7 +1914,7 @@
               "id": "rtx-5050",
               "model": "NVIDIA GeForce RTX 5050",
               "images": {
-                "front": "/images/nvidia/50series/front/rtx5060.jpg",
+                "front": "/images/nvidia/50series/front/rtx5050.jpg",
                 "core": "/images/nvidia/50series/core/rtx5050.jpg"
               },
               "graphicsProcessor": {
@@ -1989,8 +2064,8 @@
               "id": "rtx-5060-ti-8gb",
               "model": "NVIDIA GeForce RTX 5060 Ti 8 GB",
               "images": {
-                "front": "/images/nvidia/50series/front/rtx5060.jpg",
-                "core": "/images/nvidia/50series/core/rtx5060ti.jpg"
+                "front": "/images/nvidia/50series/front/rtx5060ti-8gb.jpg",
+                "core": "/images/nvidia/50series/core/rtx5060ti-8gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "GB206",
@@ -2064,8 +2139,8 @@
               "id": "rtx-5060-ti-16gb",
               "model": "NVIDIA GeForce RTX 5060 Ti 16 GB",
               "images": {
-                "front": "/images/nvidia/50series/front/rtx5060.jpg",
-                "core": "/images/nvidia/50series/core/rtx5060ti.jpg"
+                "front": "/images/nvidia/50series/front/rtx5060ti-16gb.jpg",
+                "core": "/images/nvidia/50series/core/rtx5060ti-16gb.jpg"
               },
               "graphicsProcessor": {
                 "gpuName": "GB206",
@@ -2214,7 +2289,7 @@
               "id": "rtx-5070-ti",
               "model": "NVIDIA GeForce RTX 5070 Ti",
               "images": {
-                "front": "/images/nvidia/50series/front/rtx5070.jpg",
+                "front": "/images/nvidia/50series/front/rtx5070ti.jpg",
                 "core": "/images/nvidia/50series/core/rtx5070ti.jpg"
               },
               "graphicsProcessor": {
@@ -2461,13 +2536,1183 @@
           "id": "rx-7000",
           "name": "Radeon RX 7000 Series",
           "cards": [
-            
+            {
+              "id": "rx-7400",
+              "model": "AMD Radeon RX 7400",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7400.jpg",
+                "core": "/images/amd/rx7000series/core/rx7400.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 33",
+                "gpuVariant": "Navi 33",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "13,300 million",
+                "density": "65.2M / mm²",
+                "dieSize": "204 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "August 8th, 2025",
+                "availability": "August 8th, 2025",
+                "generation": "Navi III",
+                "launchPrice": "N/A",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1452 MHz",
+                "boostClock": "2300 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "1792",
+                "tmus": "112",
+                "rops": "64",
+                "computeUnits": "28",
+                "matrixCores": "56",
+                "rtCores": "28",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "288.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "147.2 GPixel/s",
+                "textureRate": "257.6 GTexel/s",
+                "fp16Half": "32.97 TFLOPS (2:1)",
+                "fp32Float": "16.49 TFLOPS",
+                "fp64Double": "515.2 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "55 W",
+                "suggestedPsu": "250 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "3x DisplayPort 2.1"
+                ],
+                "powerConnectors": "1x 6-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7600",
+              "model": "AMD Radeon RX 7600",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7600.jpg",
+                "core": "/images/amd/rx7000series/core/rx7600.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 33",
+                "gpuVariant": "Navi 33 XL",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "13,300 million",
+                "density": "65.2M / mm²",
+                "dieSize": "204 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 24th, 2023",
+                "availability": "May 25th, 2023",
+                "generation": "Navi III",
+                "launchPrice": "269 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1720 MHz",
+                "gameClock": "2250 MHz",
+                "boostClock": "2655 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2048",
+                "tmus": "128",
+                "rops": "64",
+                "computeUnits": "32",
+                "matrixCores": "64",
+                "rtCores": "32",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "288.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "169.9 GPixel/s",
+                "textureRate": "339.8 GTexel/s",
+                "fp16Half": "43.50 TFLOPS (2:1)",
+                "fp32Float": "21.75 TFLOPS",
+                "fp64Double": "679.7 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "205 mm",
+                "width": "115 mm",
+                "height": "50 mm",
+                "tdp": "165 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "3x DisplayPort 2.1"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7600-xt",
+              "model": "AMD Radeon RX 7600 XT",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7600xt.jpg",
+                "core": "/images/amd/rx7000series/core/rx7600xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 33",
+                "gpuVariant": "Navi 33 XT",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "13,300 million",
+                "density": "65.2M / mm²",
+                "dieSize": "204 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 8th, 2024",
+                "availability": "January 8th, 2024",
+                "generation": "Navi III",
+                "launchPrice": "329 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1980 MHz",
+                "gameClock": "2470 MHz",
+                "boostClock": "2755 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2048",
+                "tmus": "128",
+                "rops": "64",
+                "computeUnits": "32",
+                "matrixCores": "64",
+                "rtCores": "32",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "288.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "176.3 GPixel/s",
+                "textureRate": "352.6 GTexel/s",
+                "fp16Half": "45.14 TFLOPS (2:1)",
+                "fp32Float": "22.57 TFLOPS",
+                "fp64Double": "705.3 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "204 mm",
+                "width": "115 mm",
+                "height": "N/A",
+                "tdp": "190 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "3x DisplayPort 2.1"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7650-gre",
+              "model": "AMD Radeon RX 7650 GRE",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7650gre.jpg",
+                "core": "/images/amd/rx7000series/core/rx7650gre.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 33",
+                "gpuVariant": "Navi 33 XL",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "6 nm",
+                "transistors": "13,300 million",
+                "density": "65.2M / mm²",
+                "dieSize": "204 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "February, 2025",
+                "availability": "February, 2025",
+                "generation": "Navi III",
+                "launchPrice": "279 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1720 MHz",
+                "gameClock": "2350 MHz",
+                "boostClock": "2695 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2048",
+                "tmus": "128",
+                "rops": "64",
+                "computeUnits": "32",
+                "matrixCores": "64",
+                "rtCores": "32",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "288.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "172.5 GPixel/s",
+                "textureRate": "345.0 GTexel/s",
+                "fp16Half": "44.15 TFLOPS (2:1)",
+                "fp32Float": "22.08 TFLOPS",
+                "fp64Double": "689.9 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "204 mm",
+                "width": "115 mm",
+                "height": "N/A",
+                "tdp": "170 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "3x DisplayPort 2.1"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7700",
+              "model": "AMD Radeon RX 7700",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7700.jpg",
+                "core": "/images/amd/rx7000series/core/rx7700.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 32",
+                "gpuVariant": "Navi 32",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "28,100 million",
+                "density": "81.2M / mm²",
+                "dieSize": "346 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "Sep 18th, 2025 (never officially released)",
+                "availability": "Sep 18th, 2025",
+                "generation": "Navi III",
+                "launchPrice": "479 USD (listed)",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1900 MHz",
+                "gameClock": "2400 MHz",
+                "boostClock": "2600 MHz",
+                "memoryClock": "2430 MHz",
+                "memoryClockEffective": "19.4 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2560",
+                "tmus": "160",
+                "rops": "96",
+                "computeUnits": "40",
+                "matrixCores": "80",
+                "rtCores": "40",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "622.1 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "249.6 GPixel/s",
+                "textureRate": "416.0 GTexel/s",
+                "fp16Half": "53.25 TFLOPS (2:1)",
+                "fp32Float": "26.62 TFLOPS",
+                "fp64Double": "832.0 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "135 mm",
+                "height": "50 mm",
+                "tdp": "200 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "2x DisplayPort 2.1",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7700-xt",
+              "model": "AMD Radeon RX 7700 XT",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7700xt.jpg",
+                "core": "/images/amd/rx7000series/core/rx7700xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 32",
+                "gpuVariant": "Navi 32 XL",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "28,100 million",
+                "density": "81.2M / mm²",
+                "dieSize": "346 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "August 25th, 2023",
+                "availability": "September 6th, 2023",
+                "generation": "Navi III",
+                "launchPrice": "449 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1435 MHz",
+                "gameClock": "2171 MHz",
+                "boostClock": "2544 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3456",
+                "tmus": "216",
+                "rops": "96",
+                "computeUnits": "54",
+                "matrixCores": "108",
+                "rtCores": "54",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "2 MB",
+                "l3Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "192 bit",
+                "bandwidth": "432.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "244.2 GPixel/s",
+                "textureRate": "549.5 GTexel/s",
+                "fp16Half": "70.34 TFLOPS (2:1)",
+                "fp32Float": "35.17 TFLOPS",
+                "fp64Double": "1.099 TFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "135 mm",
+                "height": "50 mm",
+                "tdp": "245 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "2x DisplayPort 2.1",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7800-xt",
+              "model": "AMD Radeon RX 7800 XT",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7800xt.jpg",
+                "core": "/images/amd/rx7000series/core/rx7800xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 32",
+                "gpuVariant": "Navi 32 XT",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "28,100 million",
+                "density": "81.2M / mm²",
+                "dieSize": "346 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "August 25th, 2023",
+                "availability": "September 6th, 2023",
+                "generation": "Navi III",
+                "launchPrice": "499 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1295 MHz",
+                "gameClock": "2124 MHz",
+                "boostClock": "2430 MHz",
+                "memoryClock": "2438 MHz",
+                "memoryClockEffective": "19.5 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3840",
+                "tmus": "240",
+                "rops": "96",
+                "computeUnits": "60",
+                "matrixCores": "120",
+                "rtCores": "60",
+                "l0Cache": "32 KB (per WGP)",
+                "l1Cache": "128 KB (per Array)",
+                "l2Cache": "4 MB",
+                "l3Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "624.1 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "233.3 GPixel/s",
+                "textureRate": "583.2 GTexel/s",
+                "fp16Half": "74.65 TFLOPS (2:1)",
+                "fp32Float": "37.32 TFLOPS",
+                "fp64Double": "1,166.4 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "111 mm",
+                "height": "50 mm",
+                "tdp": "263 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "3x DisplayPort 2.1"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7900-gre",
+              "model": "AMD Radeon RX 7900 GRE",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7900gre.jpg",
+                "core": "/images/amd/rx7000series/core/rx7900gre.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 31",
+                "gpuVariant": "Navi 31 XL",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "57,700 million",
+                "density": "109.1M / mm²",
+                "dieSize": "529 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "July 27th, 2023",
+                "availability": "July 27th, 2023",
+                "generation": "Navi III",
+                "launchPrice": "549 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1287 MHz",
+                "shaderClock": "1880 MHz",
+                "gameClock": "1880 MHz",
+                "boostClock": "2245 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "5120",
+                "tmus": "320",
+                "rops": "160",
+                "computeUnits": "80",
+                "matrixCores": "160",
+                "rtCores": "80",
+                "l0Cache": "64 KB (per WGP)",
+                "l1Cache": "256 KB (per Array)",
+                "l2Cache": "6 MB",
+                "l3Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "576.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "359.2 GPixel/s",
+                "textureRate": "718.4 GTexel/s",
+                "fp16Half": "91.96 TFLOPS (2:1)",
+                "fp32Float": "45.98 TFLOPS",
+                "fp64Double": "1.4368 TFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "276 mm",
+                "width": "110 mm",
+                "height": "51 mm",
+                "tdp": "260 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "2x DisplayPort 2.1",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7900-xt",
+              "model": "AMD Radeon RX 7900 XT",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7900xt.jpg",
+                "core": "/images/amd/rx7000series/core/rx7900xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 31",
+                "gpuVariant": "Navi 31 XT",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "57,700 million",
+                "density": "109.1M / mm²",
+                "dieSize": "529 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "November 3rd, 2022",
+                "availability": "December 13th, 2022",
+                "generation": "Navi III",
+                "launchPrice": "899 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1387 MHz",
+                "shaderClock": "2000 MHz",
+                "gameClock": "2000 MHz",
+                "boostClock": "2394 MHz",
+                "memoryClock": "2500 MHz",
+                "memoryClockEffective": "20 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "5376",
+                "tmus": "336",
+                "rops": "192",
+                "computeUnits": "84",
+                "matrixCores": "168",
+                "rtCores": "84",
+                "l0Cache": "64 KB (per WGP)",
+                "l1Cache": "256 KB (per Array)",
+                "l2Cache": "6 MB",
+                "l3Cache": "80 MB"
+              },
+              "memory": {
+                "memorySize": "20 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "320 bit",
+                "bandwidth": "800.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "459.6 GPixel/s",
+                "textureRate": "804.4 GTexel/s",
+                "fp16Half": "103.0 TFLOPS (2:1)",
+                "fp32Float": "51.48 TFLOPS",
+                "fp64Double": "1.609 TFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "276 mm",
+                "width": "110 mm",
+                "height": "51 mm",
+                "tdp": "300 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "2x DisplayPort 2.1",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-7900-xtx",
+              "model": "AMD Radeon RX 7900 XTX",
+              "images": {
+                "front": "/images/amd/rx7000series/front/rx7900xtx.jpg",
+                "core": "/images/amd/rx7000series/core/rx7900xtx.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 31",
+                "gpuVariant": "Navi 31 XTX",
+                "architecture": "RDNA 3",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "57,700 million",
+                "density": "109.1M / mm²",
+                "dieSize": "529 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "November 3rd, 2022",
+                "availability": "December 13th, 2022",
+                "generation": "Navi III",
+                "launchPrice": "999 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1929 MHz",
+                "shaderClock": "2365 MHz",
+                "gameClock": "2365 MHz",
+                "boostClock": "2498 MHz",
+                "memoryClock": "2500 MHz",
+                "memoryClockEffective": "20 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "6144",
+                "tmus": "384",
+                "rops": "192",
+                "computeUnits": "96",
+                "matrixCores": "192",
+                "rtCores": "96",
+                "l0Cache": "64 KB (per WGP)",
+                "l1Cache": "256 KB (per Array)",
+                "l2Cache": "6 MB",
+                "l3Cache": "96 MB"
+              },
+              "memory": {
+                "memorySize": "24 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "384 bit",
+                "bandwidth": "960.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "479.6 GPixel/s",
+                "textureRate": "959.2 GTexel/s",
+                "fp16Half": "122.8 TFLOPS (2:1)",
+                "fp32Float": "61.39 TFLOPS",
+                "fp64Double": "1.918 TFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "287 mm",
+                "width": "110 mm",
+                "height": "51 mm",
+                "tdp": "355 W",
+                "suggestedPsu": "750 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "2x DisplayPort 2.1",
+                  "1x USB Type-C"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            }
           ]
         },
         {
           "id": "rx-9000",
           "name": "Radeon RX 9000 Series",
           "cards": [
+            {
+              "id": "rx-9060",
+              "model": "AMD Radeon RX 9060",
+              "images": {
+                "front": "/images/amd/rx9000series/front/rx9060.jpg",
+                "core": "/images/amd/rx9000series/core/rx9060.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 44",
+                "gpuVariant": "Navi 44",
+                "architecture": "RDNA 4.0",
+                "foundry": "TSMC",
+                "processSize": "4 nm",
+                "transistors": "29,700 million",
+                "density": "149.2M / mm²",
+                "dieSize": "199 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "August 5th, 2025",
+                "availability": "August 5th, 2025",
+                "generation": "Navi IV",
+                "launchPrice": "OEM / unspecified",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1700 MHz",
+                "boostClock": "2990 MHz",
+                "memoryClock": "2518 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "1792",
+                "tmus": "112",
+                "rops": "64",
+                "computeUnits": "28",
+                "matrixCores": "56",
+                "rtCores": "28",
+                "l1Cache": "32 KB (per WGP)",
+                "l2Cache": "4 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "322.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "191.4 GPixel/s",
+                "textureRate": "334.9 GTexel/s",
+                "fp16Half": "44.86 TFLOPS (2:1)",
+                "fp32Float": "21.43 TFLOPS",
+                "fp64Double": "669.8 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "132 W",
+                "suggestedPsu": "300 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "2x DisplayPort 2.1a"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-9060-xt-8gb",
+              "model": "AMD Radeon RX 9060 XT 8 GB",
+              "images": {
+                "front": "/images/amd/rx9000series/front/rx9060xt-8gb.jpg",
+                "core": "/images/amd/rx9000series/core/rx9060xt-8gb.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 44",
+                "gpuVariant": "Navi 44 XT",
+                "architecture": "RDNA 4.0",
+                "foundry": "TSMC",
+                "processSize": "4 nm",
+                "transistors": "29,700 million",
+                "density": "149.2M / mm²",
+                "dieSize": "199 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "June 4th, 2025",
+                "availability": "June 4th, 2025",
+                "generation": "Navi IV",
+                "launchPrice": "299 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1700 MHz",
+                "gameClock": "2530 MHz",
+                "boostClock": "3130 MHz",
+                "memoryClock": "2518 MHz",
+                "memoryClockEffective": "20.1 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2048",
+                "tmus": "128",
+                "rops": "64",
+                "computeUnits": "32",
+                "matrixCores": "64",
+                "rtCores": "32",
+                "l1Cache": "32 KB (per WGP)",
+                "l2Cache": "4 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "322.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "200.3 GPixel/s",
+                "textureRate": "400.6 GTexel/s",
+                "fp16Half": "51.28 TFLOPS (2:1)",
+                "fp32Float": "25.64 TFLOPS",
+                "fp64Double": "801.3 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "150 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "2x DisplayPort 2.1a"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-9060-xt-16gb",
+              "model": "AMD Radeon RX 9060 XT 16 GB",
+              "images": {
+                "front": "/images/amd/rx9000series/front/rx9060xt-16gb.jpg",
+                "core": "/images/amd/rx9000series/core/rx9060xt-16gb.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 44",
+                "gpuVariant": "Navi 44 XT",
+                "architecture": "RDNA 4.0",
+                "foundry": "TSMC",
+                "processSize": "4 nm",
+                "transistors": "29,700 million",
+                "density": "149.2M / mm²",
+                "dieSize": "199 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "June 4th, 2025",
+                "availability": "June 4th, 2025",
+                "generation": "Navi IV",
+                "launchPrice": "349 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1700 MHz",
+                "gameClock": "2530 MHz",
+                "boostClock": "3130 MHz",
+                "memoryClock": "2518 MHz",
+                "memoryClockEffective": "20.1 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2048",
+                "tmus": "128",
+                "rops": "64",
+                "computeUnits": "32",
+                "matrixCores": "64",
+                "rtCores": "32",
+                "l1Cache": "32 KB (per WGP)",
+                "l2Cache": "4 MB",
+                "l3Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "322.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "200.3 GPixel/s",
+                "textureRate": "400.6 GTexel/s",
+                "fp16Half": "51.28 TFLOPS (2:1)",
+                "fp32Float": "25.64 TFLOPS",
+                "fp64Double": "801.3 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "150 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "2x DisplayPort 2.1a"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-9070-gre",
+              "model": "AMD Radeon RX 9070 GRE",
+              "images": {
+                "front": "/images/amd/rx9000series/front/rx9070gre.jpg",
+                "core": "/images/amd/rx9000series/core/rx9070gre.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 48",
+                "gpuVariant": "Navi 48 XL",
+                "architecture": "RDNA 4.0",
+                "foundry": "TSMC",
+                "processSize": "4 nm",
+                "transistors": "53,900 million",
+                "density": "151.0M / mm²",
+                "dieSize": "357 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 8th, 2025",
+                "availability": "May 8th, 2025",
+                "generation": "Navi IV",
+                "launchPrice": "576 USD (approx)",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1420 MHz",
+                "gameClock": "2220 MHz",
+                "boostClock": "2790 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3072",
+                "tmus": "192",
+                "rops": "96",
+                "computeUnits": "48",
+                "matrixCores": "96",
+                "rtCores": "48",
+                "l1Cache": "32 KB (per WGP)",
+                "l2Cache": "8 MB",
+                "l3Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "192 bit",
+                "bandwidth": "432.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "267.8 GPixel/s",
+                "textureRate": "535.7 GTexel/s",
+                "fp16Half": "68.57 TFLOPS (2:1)",
+                "fp32Float": "34.28 TFLOPS",
+                "fp64Double": "1,071.4 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "220 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1a"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rx-9070",
+              "model": "AMD Radeon RX 9070",
+              "images": {
+                "front": "/images/amd/rx9000series/front/rx9070.jpg",
+                "core": "/images/amd/rx9000series/core/rx9070.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 48",
+                "gpuVariant": "Navi 48 XT",
+                "architecture": "RDNA 4.0",
+                "foundry": "TSMC",
+                "processSize": "4 nm",
+                "transistors": "53,900 million",
+                "density": "151.0M / mm²",
+                "dieSize": "357 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "March 6th, 2025",
+                "availability": "March 6th, 2025",
+                "generation": "Navi IV",
+                "launchPrice": "549 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1330 MHz",
+                "gameClock": "2070 MHz",
+                "boostClock": "2520 MHz",
+                "memoryClock": "2518 MHz",
+                "memoryClockEffective": "20.1 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3584",
+                "tmus": "224",
+                "rops": "128",
+                "computeUnits": "56",
+                "matrixCores": "112",
+                "rtCores": "56",
+                "l1Cache": "32 KB (per WGP)",
+                "l2Cache": "8 MB",
+                "l3Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "644.6 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "322.6 GPixel/s",
+                "textureRate": "564.5 GTexel/s",
+                "fp16Half": "72.25 TFLOPS (2:1)",
+                "fp32Float": "36.13 TFLOPS",
+                "fp64Double": "1,129.0 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "220 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1a"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            },
             {
               "id": "rx-9070-xt",
               "model": "AMD Radeon RX 9070 XT",
@@ -2488,7 +3733,7 @@
               "graphicsCard": {
                 "releaseDate": "March 6th, 2025",
                 "availability": "March 6th, 2025",
-                "generation": "Radeon RX 9000",
+                "generation": "Navi IV",
                 "launchPrice": "599 USD",
                 "busInterface": "PCIe 5.0 x16"
               },

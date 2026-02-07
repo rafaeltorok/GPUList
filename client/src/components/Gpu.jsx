@@ -89,8 +89,14 @@ export default function Gpu({ gpus, findCardById }) {
 								{gpu.model.includes('Arc') && "XMX Cores"}
 							</th>
 							<th>RT Cores</th>
+							{gpu.renderConfig.l0Cache && 
+								<th>L0 Cache</th>
+							}
 							<th>L1 Cache</th>
 							<th>L2 Cache</th>
+							{gpu.renderConfig.l3Cache && 
+								<th>L3 Cache</th>
+							}
 						</tr>
 						<tr>
 							<td>{gpu.renderConfig.cores}</td>
@@ -107,8 +113,14 @@ export default function Gpu({ gpus, findCardById }) {
 								{gpu.model.includes('Arc') && gpu.renderConfig.xmxCores}
 							</td>
 							<td>{gpu.renderConfig.rtCores}</td>
+							{gpu.renderConfig.l0Cache &&
+								<td>{gpu.renderConfig.l0Cache}</td>
+							}
 							<td>{gpu.renderConfig.l1Cache}</td>
 							<td>{gpu.renderConfig.l2Cache}</td>
+							{gpu.renderConfig.l3Cache &&
+								<td>{gpu.renderConfig.l3Cache}</td>
+							}
 						</tr>
 					</tbody>
         </table>
