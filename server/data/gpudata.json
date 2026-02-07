@@ -249,8 +249,233 @@
           "name": "GeForce 30 Series",
           "cards": [
             {
+              "id": "rtx-3050-6gb",
+              "model": "NVIDIA GeForce RTX 3050 6 GB",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3050-6gb.jpg",
+                "core": "/images/nvidia/30series/core/rtx3050-6gb.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA107",
+                "gpuVariant": "GA107-325-K2-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "8,700 million",
+                "density": "43.5M / mm²",
+                "dieSize": "200 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "February 2nd, 2024",
+                "availability": "February 2nd, 2024",
+                "generation": "GeForce 30",
+                "launchPrice": "179 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1042 MHz",
+                "boostClock": "1470 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2304",
+                "tmus": "72",
+                "rops": "32",
+                "smCount": "18",
+                "tensorCores": "72",
+                "rtCores": "18",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "2 MB"
+              },
+              "memory": {
+                "memorySize": "6 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "96 bit",
+                "bandwidth": "168.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "47.04 GPixel/s",
+                "textureRate": "105.8 GTexel/s",
+                "fp16Half": "6.774 TFLOPS (1:1)",
+                "fp32Float": "6.774 TFLOPS",
+                "fp64Double": "105.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "242 mm",
+                "width": "N/A",
+                "height": "112 mm",
+                "tdp": "70 W",
+                "suggestedPsu": "250 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "None"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3050-8gb",
+              "model": "NVIDIA GeForce RTX 3050 8 GB",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3060.jpg",
+                "core": "/images/nvidia/30series/core/rtx3050.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA106",
+                "gpuVariant": "GA106-150-KA-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "12,000 million",
+                "density": "43.5M / mm²",
+                "dieSize": "276 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 4th, 2022",
+                "availability": "January 27th, 2022",
+                "generation": "GeForce 30",
+                "launchPrice": "249 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1552 MHz",
+                "boostClock": "1777 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2560",
+                "tmus": "80",
+                "rops": "32",
+                "smCount": "20",
+                "tensorCores": "80",
+                "rtCores": "20",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "2 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "224.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "56.86 GPixel/s",
+                "textureRate": "142.2 GTexel/s",
+                "fp16Half": "9.098 TFLOPS (1:1)",
+                "fp32Float": "9.098 TFLOPS",
+                "fp64Double": "142.2 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "242 mm",
+                "width": "N/A",
+                "height": "112 mm",
+                "tdp": "130 W",
+                "suggestedPsu": "300 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
               "id": "rtx-3060",
-              "model": "NVIDIA GeForce RTX 3060",
+              "model": "NVIDIA GeForce RTX 3060 8GB",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3060.jpg",
+                "core": "/images/nvidia/30series/core/rtx30608gb.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA106",
+                "gpuVariant": "GA106-302-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "12,000 million",
+                "density": "43.5M / mm²",
+                "dieSize": "276 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "October 12th, 2022",
+                "availability": "October 12th, 2022",
+                "generation": "GeForce 30",
+                "launchPrice": "N/A",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1320 MHz",
+                "boostClock": "1777 MHz",
+                "memoryClock": "1875 MHz",
+                "memoryClockEffective": "15 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3584",
+                "tmus": "112",
+                "rops": "48",
+                "smCount": "28",
+                "tensorCores": "112",
+                "rtCores": "28",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "3 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "240.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "85.30 GPixel/s",
+                "textureRate": "199.0 GTexel/s",
+                "fp16Half": "12.74 TFLOPS (1:1)",
+                "fp32Float": "12.74 TFLOPS",
+                "fp64Double": "199 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "242 mm",
+                "width": "N/A",
+                "height": "112 mm",
+                "tdp": "170 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.7"
+              }
+            },
+            {
+              "id": "rtx-3060",
+              "model": "NVIDIA GeForce RTX 3060 12GB",
               "images": {
                 "front": "/images/nvidia/30series/front/rtx3060.jpg",
                 "core": "/images/nvidia/30series/core/rtx3060.jpg"
@@ -322,6 +547,531 @@
                 "cuda": "8.6",
                 "shaderModel": "6.7"
               }
+            },
+            {
+              "id": "rtx-3060-ti",
+              "model": "NVIDIA GeForce RTX 3060 Ti",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3060.jpg",
+                "core": "/images/nvidia/30series/core/rtx3060ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA104",
+                "gpuVariant": "GA104-200-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "17,400 million",
+                "density": "44.4M / mm²",
+                "dieSize": "392 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "December 1st, 2020",
+                "availability": "December 2nd, 2020",
+                "generation": "GeForce 30",
+                "launchPrice": "399 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1410 MHz",
+                "boostClock": "1665 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4864",
+                "tmus": "152",
+                "rops": "80",
+                "smCount": "38",
+                "tensorCores": "152",
+                "rtCores": "38",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "4 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "448.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "133.2 GPixel/s",
+                "textureRate": "253.1 GTexel/s",
+                "fp16Half": "16.20 TFLOPS (1:1)",
+                "fp32Float": "16.20 TFLOPS",
+                "fp64Double": "253.1 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "242 mm",
+                "width": "N/A",
+                "height": "112 mm",
+                "tdp": "200 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3070",
+              "model": "NVIDIA GeForce RTX 3070",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3070.jpg",
+                "core": "/images/nvidia/30series/core/rtx3070.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA104",
+                "gpuVariant": "GA104-300-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "17,400 million",
+                "density": "44.4M / mm²",
+                "dieSize": "392 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "September 1st, 2020",
+                "availability": "October 29th, 2020",
+                "generation": "GeForce 30",
+                "launchPrice": "499 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1500 MHz",
+                "boostClock": "1725 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "14 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "5888",
+                "tmus": "184",
+                "rops": "96",
+                "smCount": "46",
+                "tensorCores": "184",
+                "rtCores": "46",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "4 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "448.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "165.6 GPixel/s",
+                "textureRate": "317.4 GTexel/s",
+                "fp16Half": "20.31 TFLOPS (1:1)",
+                "fp32Float": "20.31 TFLOPS",
+                "fp64Double": "317.4 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "242 mm",
+                "width": "N/A",
+                "height": "112 mm",
+                "tdp": "220 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3070-ti",
+              "model": "NVIDIA GeForce RTX 3070 Ti",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3070ti.jpg",
+                "core": "/images/nvidia/30series/core/rtx3070ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA104",
+                "gpuVariant": "GA104-400-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "17,400 million",
+                "density": "44.4M / mm²",
+                "dieSize": "392 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 31st, 2021",
+                "availability": "June 10th, 2021",
+                "generation": "GeForce 30",
+                "launchPrice": "599 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1575 MHz",
+                "boostClock": "1770 MHz",
+                "memoryClock": "1188 MHz",
+                "memoryClockEffective": "19 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "6144",
+                "tmus": "192",
+                "rops": "96",
+                "smCount": "48",
+                "tensorCores": "192",
+                "rtCores": "48",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "4 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "256 bit",
+                "bandwidth": "608.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "169.9 GPixel/s",
+                "textureRate": "339.8 GTexel/s",
+                "fp16Half": "21.75 TFLOPS (1:1)",
+                "fp32Float": "21.75 TFLOPS",
+                "fp64Double": "339.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "N/A",
+                "height": "112 mm",
+                "tdp": "290 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3080",
+              "model": "NVIDIA GeForce RTX 3080",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3080.jpg",
+                "core": "/images/nvidia/30series/core/rtx3080.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA102",
+                "gpuVariant": "GA102-200-KD-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "28,300 million",
+                "density": "45.1M / mm²",
+                "dieSize": "628 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "September 1st, 2020",
+                "availability": "September 17th, 2020",
+                "generation": "GeForce 30",
+                "launchPrice": "699 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1440 MHz",
+                "boostClock": "1710 MHz",
+                "memoryClock": "1188 MHz",
+                "memoryClockEffective": "19 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "8704",
+                "tmus": "272",
+                "rops": "96",
+                "smCount": "68",
+                "tensorCores": "272",
+                "rtCores": "68",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "5 MB"
+              },
+              "memory": {
+                "memorySize": "10 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "320 bit",
+                "bandwidth": "760.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "164.2 GPixel/s",
+                "textureRate": "465.1 GTexel/s",
+                "fp16Half": "29.77 TFLOPS (1:1)",
+                "fp32Float": "29.77 TFLOPS",
+                "fp64Double": "465.1 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "285 mm",
+                "width": "112 mm",
+                "height": "40 mm",
+                "tdp": "320 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3080-ti",
+              "model": "NVIDIA GeForce RTX 3080 Ti",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3080ti.jpg",
+                "core": "/images/nvidia/30series/core/rtx3080ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA102",
+                "gpuVariant": "GA102-225-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "28,300 million",
+                "density": "45.1M / mm²",
+                "dieSize": "628 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 31st, 2021",
+                "availability": "June 3rd, 2021",
+                "generation": "GeForce 30",
+                "launchPrice": "1199 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1365 MHz",
+                "boostClock": "1665 MHz",
+                "memoryClock": "1188 MHz",
+                "memoryClockEffective": "19 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "10240",
+                "tmus": "320",
+                "rops": "112",
+                "smCount": "80",
+                "tensorCores": "320",
+                "rtCores": "80",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "6 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "384 bit",
+                "bandwidth": "912.4 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "186.5 GPixel/s",
+                "textureRate": "532.8 GTexel/s",
+                "fp16Half": "34.10 TFLOPS (1:1)",
+                "fp32Float": "34.10 TFLOPS",
+                "fp64Double": "532.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "285 mm",
+                "width": "112 mm",
+                "height": "40 mm",
+                "tdp": "350 W",
+                "suggestedPsu": "750 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3090",
+              "model": "NVIDIA GeForce RTX 3090",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3090.jpg",
+                "core": "/images/nvidia/30series/core/rtx3090.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA102",
+                "gpuVariant": "GA102-300-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "28,300 million",
+                "density": "45.1M / mm²",
+                "dieSize": "628 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "September 1st, 2020",
+                "availability": "September 24th, 2020",
+                "generation": "GeForce 30",
+                "launchPrice": "1,499 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1395 MHz",
+                "boostClock": "1695 MHz",
+                "memoryClock": "1219 MHz",
+                "memoryClockEffective": "19.5 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "10496",
+                "tmus": "328",
+                "rops": "112",
+                "smCount": "82",
+                "tensorCores": "328",
+                "rtCores": "82",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "6 MB"
+              },
+              "memory": {
+                "memorySize": "24 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "384 bit",
+                "bandwidth": "936.2 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "189.8 GPixel/s",
+                "textureRate": "556.0 GTexel/s",
+                "fp16Half": "35.58 TFLOPS (1:1)",
+                "fp32Float": "35.58 TFLOPS",
+                "fp64Double": "556.0 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-slot",
+                "length": "336 mm",
+                "width": "140 mm",
+                "height": "61 mm",
+                "tdp": "350 W",
+                "suggestedPsu": "750 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-3090-ti",
+              "model": "NVIDIA GeForce RTX 3090 Ti",
+              "images": {
+                "front": "/images/nvidia/30series/front/rtx3090ti.jpg",
+                "core": "/images/nvidia/30series/core/rtx3090ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GA102",
+                "gpuVariant": "GA102-350-A1",
+                "architecture": "Ampere",
+                "foundry": "Samsung",
+                "processSize": "8 nm",
+                "transistors": "28,300 million",
+                "density": "45.1M / mm²",
+                "dieSize": "628 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 27th, 2022",
+                "availability": "March 29th, 2022",
+                "generation": "GeForce 30",
+                "launchPrice": "1,999 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1560 MHz",
+                "boostClock": "1860 MHz",
+                "memoryClock": "1313 MHz",
+                "memoryClockEffective": "21 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "10752",
+                "tmus": "336",
+                "rops": "112",
+                "smCount": "84",
+                "tensorCores": "336",
+                "rtCores": "84",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "6 MB"
+              },
+              "memory": {
+                "memorySize": "24 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "384 bit",
+                "bandwidth": "1.01 TB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "208.3 GPixel/s",
+                "textureRate": "625.0 GTexel/s",
+                "fp16Half": "40.00 TFLOPS (1:1)",
+                "fp32Float": "40.00 TFLOPS",
+                "fp64Double": "625.0 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-slot",
+                "length": "336 mm",
+                "width": "140 mm",
+                "height": "61 mm",
+                "tdp": "450 W",
+                "suggestedPsu": "850 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "8.6",
+                "shaderModel": "6.8"
+              }
             }
           ]
         },
@@ -329,6 +1079,681 @@
           "id": "rtx-40",
           "name": "GeForce 40 Series",
           "cards": [
+            {
+              "id": "rtx-4060",
+              "model": "NVIDIA GeForce RTX 4060",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4060ti.jpg",
+                "core": "/images/nvidia/40series/core/rtx4060.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD107",
+                "gpuVariant": "AD107-400-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "18,900 million",
+                "density": "118.9M / mm²",
+                "dieSize": "159 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 18th, 2023",
+                "availability": "June 29th, 2023",
+                "generation": "GeForce 40",
+                "launchPrice": "299 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "1830 MHz",
+                "boostClock": "2460 MHz",
+                "memoryClock": "2125 MHz",
+                "memoryClockEffective": "17 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3072",
+                "tmus": "96",
+                "rops": "48",
+                "smCount": "24",
+                "tensorCores": "96",
+                "rtCores": "24",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "24 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "272.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "118.1 GPixel/s",
+                "textureRate": "236.2 GTexel/s",
+                "fp16Half": "15.11 TFLOPS (1:1)",
+                "fp32Float": "15.11 TFLOPS",
+                "fp64Double": "236.2 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "240 mm",
+                "width": "111 mm",
+                "height": "40 mm",
+                "tdp": "115 W",
+                "suggestedPsu": "300 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 12-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4060-ti-8gb",
+              "model": "NVIDIA GeForce RTX 4060 Ti 8 GB",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4060ti.jpg",
+                "core": "/images/nvidia/40series/core/rtx4060ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD106",
+                "gpuVariant": "AD106-350-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "22,900 million",
+                "density": "121.8M / mm²",
+                "dieSize": "188 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 18th, 2023",
+                "availability": "May 24th, 2023",
+                "generation": "GeForce 40",
+                "launchPrice": "399 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2310 MHz",
+                "boostClock": "2535 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4352",
+                "tmus": "136",
+                "rops": "48",
+                "smCount": "34",
+                "tensorCores": "136",
+                "rtCores": "34",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "288.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "121.7 GPixel/s",
+                "textureRate": "344.8 GTexel/s",
+                "fp16Half": "22.06 TFLOPS (1:1)",
+                "fp32Float": "22.06 TFLOPS",
+                "fp64Double": "344.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "240 mm",
+                "width": "111 mm",
+                "height": "40 mm",
+                "tdp": "160 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4060-ti-16gb",
+              "model": "NVIDIA GeForce RTX 4060 Ti 16 GB",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4060ti.jpg",
+                "core": "/images/nvidia/40series/core/rtx4060ti16gb.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD106",
+                "gpuVariant": "AD106-350-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "22,900 million",
+                "density": "121.8M / mm²",
+                "dieSize": "188 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 18th, 2023",
+                "availability": "May 24th, 2023",
+                "generation": "GeForce 40",
+                "launchPrice": "399 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2310 MHz",
+                "boostClock": "2535 MHz",
+                "memoryClock": "2250 MHz",
+                "memoryClockEffective": "18 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4352",
+                "tmus": "136",
+                "rops": "48",
+                "smCount": "34",
+                "tensorCores": "136",
+                "rtCores": "34",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "288.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "121.7 GPixel/s",
+                "textureRate": "344.8 GTexel/s",
+                "fp16Half": "22.06 TFLOPS (1:1)",
+                "fp32Float": "22.06 TFLOPS",
+                "fp64Double": "344.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "240 mm",
+                "width": "111 mm",
+                "height": "40 mm",
+                "tdp": "160 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4070",
+              "model": "NVIDIA GeForce RTX 4070",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4070.jpg",
+                "core": "/images/nvidia/40series/core/rtx4070.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD104",
+                "gpuVariant": "AD104-250-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "35,800 million",
+                "density": "121.8M / mm²",
+                "dieSize": "294 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "April 12th, 2023",
+                "availability": "April 13th, 2023",
+                "generation": "GeForce 40",
+                "launchPrice": "599 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1920 MHz",
+                "boostClock": "2475 MHz",
+                "memoryClock": "1313 MHz",
+                "memoryClockEffective": "21 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "5888",
+                "tmus": "184",
+                "rops": "64",
+                "smCount": "46",
+                "tensorCores": "184",
+                "rtCores": "46",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "36 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "192 bit",
+                "bandwidth": "504.2 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "158.4 GPixel/s",
+                "textureRate": "455.4 GTexel/s",
+                "fp16Half": "29.15 TFLOPS (1:1)",
+                "fp32Float": "29.15 TFLOPS",
+                "fp64Double": "455.4 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "240 mm",
+                "width": "110 mm",
+                "height": "40 mm",
+                "tdp": "200 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4070-super",
+              "model": "NVIDIA GeForce RTX 4070 SUPER",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4070super.jpg",
+                "core": "/images/nvidia/40series/core/rtx4070super.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD104",
+                "gpuVariant": "AD104-350-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "35,800 million",
+                "density": "121.8M / mm²",
+                "dieSize": "294 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 8th, 2024",
+                "availability": "January 17th, 2024",
+                "generation": "GeForce 40",
+                "launchPrice": "599 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1980 MHz",
+                "boostClock": "2475 MHz",
+                "memoryClock": "1313 MHz",
+                "memoryClockEffective": "21 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "7168",
+                "tmus": "224",
+                "rops": "80",
+                "smCount": "56",
+                "tensorCores": "224",
+                "rtCores": "56",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "192 bit",
+                "bandwidth": "504.2 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "198.0 GPixel/s",
+                "textureRate": "554.4 GTexel/s",
+                "fp16Half": "35.48 TFLOPS (1:1)",
+                "fp32Float": "35.48 TFLOPS",
+                "fp64Double": "554.4 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "267 mm",
+                "width": "112 mm",
+                "height": "42 mm",
+                "tdp": "220 W",
+                "suggestedPsu": "550 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4070-ti",
+              "model": "NVIDIA GeForce RTX 4070 Ti",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4070ti.jpg",
+                "core": "/images/nvidia/40series/core/rtx4070ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD104",
+                "gpuVariant": "AD104-400-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "35,800 million",
+                "density": "121.8M / mm²",
+                "dieSize": "294 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 3rd, 2023",
+                "availability": "January 5th, 2023",
+                "generation": "GeForce 40",
+                "launchPrice": "799 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2310 MHz",
+                "boostClock": "2610 MHz",
+                "memoryClock": "1313 MHz",
+                "memoryClockEffective": "21 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "7680",
+                "tmus": "240",
+                "rops": "80",
+                "smCount": "60",
+                "tensorCores": "240",
+                "rtCores": "60",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "192 bit",
+                "bandwidth": "504.2 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "208.8 GPixel/s",
+                "textureRate": "626.4 GTexel/s",
+                "fp16Half": "40.09 TFLOPS (1:1)",
+                "fp32Float": "40.09 TFLOPS",
+                "fp64Double": "626.4 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "285 mm",
+                "width": "112 mm",
+                "height": "42 mm",
+                "tdp": "285 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4070-ti-super",
+              "model": "NVIDIA GeForce RTX 4070 Ti SUPER",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4070ti.jpg",
+                "core": "/images/nvidia/40series/core/rtx4070tisuper.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD103",
+                "gpuVariant": "AD103-275-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "45,900 million",
+                "density": "121.1M / mm²",
+                "dieSize": "379 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 8th, 2024",
+                "availability": "January 24th, 2024",
+                "generation": "GeForce 40",
+                "launchPrice": "799 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2340 MHz",
+                "boostClock": "2610 MHz",
+                "memoryClock": "1313 MHz",
+                "memoryClockEffective": "21 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "8448",
+                "tmus": "264",
+                "rops": "96",
+                "smCount": "66",
+                "tensorCores": "264",
+                "rtCores": "66",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "256 bit",
+                "bandwidth": "672.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "250.6 GPixel/s",
+                "textureRate": "689.0 GTexel/s",
+                "fp16Half": "44.10 TFLOPS (1:1)",
+                "fp32Float": "44.10 TFLOPS",
+                "fp64Double": "689.0 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-slot",
+                "length": "310 mm",
+                "width": "140 mm",
+                "height": "61 mm",
+                "tdp": "285 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4080",
+              "model": "NVIDIA GeForce RTX 4080",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4080.jpg",
+                "core": "/images/nvidia/40series/core/rtx4080.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD103",
+                "gpuVariant": "AD103-300-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "45,900 million",
+                "density": "121.1M / mm²",
+                "dieSize": "379 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "September 20th, 2022",
+                "availability": "November 16th, 2022",
+                "generation": "GeForce 40",
+                "launchPrice": "1199 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2205 MHz",
+                "boostClock": "2505 MHz",
+                "memoryClock": "1400 MHz",
+                "memoryClockEffective": "22.4 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "9728",
+                "tmus": "304",
+                "rops": "112",
+                "smCount": "76",
+                "tensorCores": "304",
+                "rtCores": "76",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "256 bit",
+                "bandwidth": "716.8 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "280.6 GPixel/s",
+                "textureRate": "761.5 GTexel/s",
+                "fp16Half": "48.74 TFLOPS (1:1)",
+                "fp32Float": "48.74 TFLOPS",
+                "fp64Double": "761.5 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-slot",
+                "length": "310 mm",
+                "width": "140 mm",
+                "height": "61 mm",
+                "tdp": "320 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-4080-super",
+              "model": "NVIDIA GeForce RTX 4080 SUPER",
+              "images": {
+                "front": "/images/nvidia/40series/front/rtx4080super.jpg",
+                "core": "/images/nvidia/40series/core/rtx4080super.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "AD103",
+                "gpuVariant": "AD103-400-A1",
+                "architecture": "Ada Lovelace",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "45,900 million",
+                "density": "121.1M / mm²",
+                "dieSize": "379 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 8th, 2024",
+                "availability": "January 31st, 2024",
+                "generation": "GeForce 40",
+                "launchPrice": "999 USD",
+                "busInterface": "PCIe 4.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2295 MHz",
+                "boostClock": "2550 MHz",
+                "memoryClock": "1438 MHz",
+                "memoryClockEffective": "23 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "10240",
+                "tmus": "320",
+                "rops": "112",
+                "smCount": "80",
+                "tensorCores": "320",
+                "rtCores": "80",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6X",
+                "memoryBus": "256 bit",
+                "bandwidth": "736.3 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "285.6 GPixel/s",
+                "textureRate": "816.0 GTexel/s",
+                "fp16Half": "52.22 TFLOPS (1:1)",
+                "fp32Float": "52.22 TFLOPS",
+                "fp64Double": "816.0 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Triple-slot",
+                "length": "310 mm",
+                "width": "140 mm",
+                "height": "61 mm",
+                "tdp": "320 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1",
+                  "3x DisplayPort 1.4a"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.3",
+                "cuda": "8.9",
+                "shaderModel": "6.8"
+              }
+            },
             {
               "id": "rtx-4090",
               "model": "NVIDIA GeForce RTX 4090",
@@ -410,7 +1835,606 @@
           "id": "rtx-50",
           "name": "GeForce 50 Series",
           "cards": [
-
+            {
+              "id": "rtx-5050",
+              "model": "NVIDIA GeForce RTX 5050",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5060.jpg",
+                "core": "/images/nvidia/50series/core/rtx5050.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB207",
+                "gpuVariant": "GB207-300-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "16,900 million",
+                "density": "113.4M / mm²",
+                "dieSize": "149 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "July 1st, 2025",
+                "availability": "July 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "249 USD",
+                "busInterface": "PCIe 5.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2317 MHz",
+                "boostClock": "2572 MHz",
+                "memoryClock": "2500 MHz",
+                "memoryClockEffective": "20 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2560",
+                "tmus": "80",
+                "rops": "32",
+                "smCount": "20",
+                "tensorCores": "80",
+                "rtCores": "20",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "24 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "128 bit",
+                "bandwidth": "320.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "82.30 GPixel/s",
+                "textureRate": "205.8 GTexel/s",
+                "fp16Half": "13.17 TFLOPS (1:1)",
+                "fp32Float": "13.17 TFLOPS",
+                "fp64Double": "205.8 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "130 W",
+                "suggestedPsu": "300 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5060",
+              "model": "NVIDIA GeForce RTX 5060",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5060.jpg",
+                "core": "/images/nvidia/50series/core/rtx5060.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB206",
+                "gpuVariant": "GB206-250-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "21,900 million",
+                "density": "121.0M / mm²",
+                "dieSize": "181 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "May 19th, 2025",
+                "availability": "May 19th, 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "299 USD",
+                "busInterface": "PCIe 5.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2280 MHz",
+                "boostClock": "2497 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "28 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "3840",
+                "tmus": "120",
+                "rops": "48",
+                "smCount": "30",
+                "tensorCores": "120",
+                "rtCores": "30",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "128 bit",
+                "bandwidth": "448.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "119.9 GPixel/s",
+                "textureRate": "299.6 GTexel/s",
+                "fp16Half": "19.18 TFLOPS (1:1)",
+                "fp32Float": "19.18 TFLOPS",
+                "fp64Double": "299.6 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "241 mm",
+                "width": "111 mm",
+                "height": "40 mm",
+                "tdp": "145 W",
+                "suggestedPsu": "300 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5060-ti-8gb",
+              "model": "NVIDIA GeForce RTX 5060 Ti 8 GB",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5060.jpg",
+                "core": "/images/nvidia/50series/core/rtx5060ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB206",
+                "gpuVariant": "GB206-300-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "21,900 million",
+                "density": "121.0M / mm²",
+                "dieSize": "181 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "April 16th, 2025",
+                "availability": "April 16th, 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "429 USD",
+                "busInterface": "PCIe 5.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2407 MHz",
+                "boostClock": "2572 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "28 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4608",
+                "tmus": "144",
+                "rops": "48",
+                "smCount": "36",
+                "tensorCores": "144",
+                "rtCores": "36",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "8 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "128 bit",
+                "bandwidth": "448.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "123.5 GPixel/s",
+                "textureRate": "370.4 GTexel/s",
+                "fp16Half": "23.70 TFLOPS (1:1)",
+                "fp32Float": "23.70 TFLOPS",
+                "fp64Double": "370.4 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "241 mm",
+                "width": "111 mm",
+                "height": "40 mm",
+                "tdp": "180 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5060-ti-16gb",
+              "model": "NVIDIA GeForce RTX 5060 Ti 16 GB",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5060.jpg",
+                "core": "/images/nvidia/50series/core/rtx5060ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB206",
+                "gpuVariant": "GB206-300-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "21,900 million",
+                "density": "121.0M / mm²",
+                "dieSize": "181 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "April 16th, 2025",
+                "availability": "April 16th, 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "429 USD",
+                "busInterface": "PCIe 5.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2407 MHz",
+                "boostClock": "2572 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "28 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4608",
+                "tmus": "144",
+                "rops": "48",
+                "smCount": "36",
+                "tensorCores": "144",
+                "rtCores": "36",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "32 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "128 bit",
+                "bandwidth": "448.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "123.5 GPixel/s",
+                "textureRate": "370.4 GTexel/s",
+                "fp16Half": "23.70 TFLOPS (1:1)",
+                "fp32Float": "23.70 TFLOPS",
+                "fp64Double": "370.4 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "241 mm",
+                "width": "111 mm",
+                "height": "40 mm",
+                "tdp": "180 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5070",
+              "model": "NVIDIA GeForce RTX 5070",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5070.jpg",
+                "core": "/images/nvidia/50series/core/rtx5070.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB205",
+                "gpuVariant": "GB205-300-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "31,100 million",
+                "density": "118.3M / mm²",
+                "dieSize": "263 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "March 4th, 2025",
+                "availability": "March 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "549 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2325 MHz",
+                "boostClock": "2512 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "28 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "6144",
+                "tmus": "192",
+                "rops": "80",
+                "smCount": "48",
+                "tensorCores": "192",
+                "rtCores": "48",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "192 bit",
+                "bandwidth": "672.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "201.0 GPixel/s",
+                "textureRate": "482.3 GTexel/s",
+                "fp16Half": "30.87 TFLOPS (1:1)",
+                "fp32Float": "30.87 TFLOPS",
+                "fp64Double": "482.3 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "245 mm",
+                "width": "115 mm",
+                "height": "40 mm",
+                "tdp": "250 W",
+                "suggestedPsu": "600 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5070-ti",
+              "model": "NVIDIA GeForce RTX 5070 Ti",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5070.jpg",
+                "core": "/images/nvidia/50series/core/rtx5070ti.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB203",
+                "gpuVariant": "GB203-300-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "45,600 million",
+                "density": "120.6M / mm²",
+                "dieSize": "378 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "Feb 20th, 2025",
+                "availability": "Feb 20th, 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "749 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2295 MHz",
+                "boostClock": "2452 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "28 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "8960",
+                "tmus": "280",
+                "rops": "96",
+                "smCount": "70",
+                "tensorCores": "280",
+                "rtCores": "70",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "48 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "256 bit",
+                "bandwidth": "896.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "235.4 GPixel/s",
+                "textureRate": "686.6 GTexel/s",
+                "fp16Half": "43.94 TFLOPS (1:1)",
+                "fp32Float": "43.94 TFLOPS",
+                "fp64Double": "686.6 GFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "304 mm",
+                "width": "137 mm",
+                "height": "48 mm",
+                "tdp": "300 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5080",
+              "model": "NVIDIA GeForce RTX 5080",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5080.jpg",
+                "core": "/images/nvidia/50series/core/rtx5080.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB203",
+                "gpuVariant": "GB203-400-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "45,600 million",
+                "density": "120.6M / mm²",
+                "dieSize": "378 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "Jan 30th, 2025",
+                "availability": "Jan 30th, 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "999 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2295 MHz",
+                "boostClock": "2617 MHz",
+                "memoryClock": "1875 MHz",
+                "memoryClockEffective": "30 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "10752",
+                "tmus": "336",
+                "rops": "112",
+                "smCount": "84",
+                "tensorCores": "336",
+                "rtCores": "84",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "256 bit",
+                "bandwidth": "960.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "293.1 GPixel/s",
+                "textureRate": "879.3 GTexel/s",
+                "fp16Half": "56.28 TFLOPS (1:1)",
+                "fp32Float": "56.28 TFLOPS",
+                "fp64Double": "879.3 GFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "304 mm",
+                "width": "137 mm",
+                "height": "40 mm",
+                "tdp": "360 W",
+                "suggestedPsu": "750 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            },
+            {
+              "id": "rtx-5090",
+              "model": "NVIDIA GeForce RTX 5090",
+              "images": {
+                "front": "/images/nvidia/50series/front/rtx5090.jpg",
+                "core": "/images/nvidia/50series/core/rtx5090.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "GB202",
+                "gpuVariant": "GB202-300-A1",
+                "architecture": "Blackwell 2.0",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "92,200 million",
+                "density": "122.9M / mm²",
+                "dieSize": "750 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "January 30th, 2025",
+                "availability": "January 30th, 2025",
+                "generation": "GeForce 50",
+                "launchPrice": "1,999 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "2017 MHz",
+                "boostClock": "2407 MHz",
+                "memoryClock": "1750 MHz",
+                "memoryClockEffective": "28 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "21760",
+                "tmus": "680",
+                "rops": "176",
+                "smCount": "170",
+                "tensorCores": "680",
+                "rtCores": "170",
+                "l1Cache": "128 KB (per SM)",
+                "l2Cache": "96 MB"
+              },
+              "memory": {
+                "memorySize": "32 GB",
+                "memoryType": "GDDR7",
+                "memoryBus": "512 bit",
+                "bandwidth": "1.79 TB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "423.6 GPixel/s",
+                "textureRate": "1636.8 GTexel/s",
+                "fp16Half": "104.8 TFLOPS (1:1)",
+                "fp32Float": "104.8 TFLOPS",
+                "fp64Double": "1.637 TFLOPS (1:64)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-Slot",
+                "length": "304 mm",
+                "width": "137 mm",
+                "height": "40 mm",
+                "tdp": "575 W",
+                "suggestedPsu": "950 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1b"
+                ],
+                "powerConnectors": "1 x 16-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "12.0",
+                "shaderModel": "6.8"
+              }
+            }
           ]
         }
       ]
@@ -444,7 +2468,83 @@
           "id": "rx-9000",
           "name": "Radeon RX 9000 Series",
           "cards": [
-
+            {
+              "id": "rx-9070-xt",
+              "model": "AMD Radeon RX 9070 XT",
+              "images": {
+                "front": "/images/amd/rx9000series/front/rx9070xt.jpg",
+                "core": "/images/amd/rx9000series/core/rx9070xt.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "Navi 48",
+                "gpuVariant": "Navi 48 XTX",
+                "architecture": "RDNA 4",
+                "foundry": "TSMC",
+                "processSize": "4 nm",
+                "transistors": "53,900 million",
+                "density": "151.0M / mm²",
+                "dieSize": "357 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "March 6th, 2025",
+                "availability": "March 6th, 2025",
+                "generation": "Radeon RX 9000",
+                "launchPrice": "599 USD",
+                "busInterface": "PCIe 5.0 x16"
+              },
+              "clockSpeeds": {
+                "baseClock": "1660 MHz",
+                "gameClock": "2400 MHz",
+                "boostClock": "2970 MHz",
+                "memoryClock": "2518 MHz",
+                "memoryClockEffective": "20.1 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "4096",
+                "tmus": "256",
+                "rops": "128",
+                "computeUnits": "64",
+                "matrixCores": "128",
+                "rtCores": "64",
+                "l1Cache": "32 KB (per WGP)",
+                "l2Cache": "8 MB",
+                "l3Cache": "64 MB"
+              },
+              "memory": {
+                "memorySize": "16 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "256 bit",
+                "bandwidth": "644.6 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "380.2 GPixel/s",
+                "textureRate": "760.3 GTexel/s",
+                "fp16Half": "97.32 TFLOPS (2:1)",
+                "fp32Float": "48.66 TFLOPS",
+                "fp64Double": "1.521 TFLOPS (1:32)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "N/A",
+                "width": "N/A",
+                "height": "N/A",
+                "tdp": "304 W",
+                "suggestedPsu": "700 W",
+                "outputs": [
+                  "1x HDMI 2.1b",
+                  "3x DisplayPort 2.1a"
+                ],
+                "powerConnectors": "2 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "2.2",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.8"
+              }
+            }
           ]
         }
       ]
@@ -464,7 +2564,81 @@
           "id": "arc-b-series",
           "name": "Arc B-Series",
           "cards": [
-
+            {
+              "id": "arc-b580",
+              "model": "Intel Arc B580",
+              "images": {
+                "front": "/images/intel/arcBseries/front/arcb580.jpg",
+                "core": "/images/intel/arcBseries/core/arcb580.jpg"
+              },
+              "graphicsProcessor": {
+                "gpuName": "BMG-G21",
+                "gpuVariant": "SRPMF",
+                "architecture": "Xe2",
+                "foundry": "TSMC",
+                "processSize": "5 nm",
+                "transistors": "19,600 million",
+                "density": "72.1M / mm²",
+                "dieSize": "272 mm²"
+              },
+              "graphicsCard": {
+                "releaseDate": "December 13th, 2024",
+                "availability": "December 13th, 2024",
+                "generation": "Arc B-Series",
+                "launchPrice": "249 USD",
+                "busInterface": "PCIe 4.0 x8"
+              },
+              "clockSpeeds": {
+                "baseClock": "2670 MHz",
+                "boostClock": "2670 MHz",
+                "memoryClock": "2375 MHz",
+                "memoryClockEffective": "19 Gbps effective"
+              },
+              "renderConfig": {
+                "cores": "2560",
+                "tmus": "160",
+                "rops": "80",
+                "executionUnits": "20",
+                "xmxCores": "160",
+                "rtCores": "20",
+                "l1Cache": "256 KB (per EU)",
+                "l2Cache": "18 MB"
+              },
+              "memory": {
+                "memorySize": "12 GB",
+                "memoryType": "GDDR6",
+                "memoryBus": "192 bit",
+                "bandwidth": "456.0 GB/s"
+              },
+              "theoreticalPerformance": {
+                "pixelRate": "213.6 GPixel/s",
+                "textureRate": "427.2 GTexel/s",
+                "fp16Half": "27.34 TFLOPS (2:1)",
+                "fp32Float": "13.67 TFLOPS",
+                "fp64Double": "1.709 TFLOPS (1:8)"
+              },
+              "boardDesign": {
+                "slotWidth": "Dual-slot",
+                "length": "272 mm",
+                "width": "115 mm",
+                "height": "45 mm",
+                "tdp": "190 W",
+                "suggestedPsu": "450 W",
+                "outputs": [
+                  "1x HDMI 2.1a",
+                  "3x DisplayPort 2.1"
+                ],
+                "powerConnectors": "1 x 8-pin"
+              },
+              "graphicsFeatures": {
+                "directX": "12 Ultimate (12_2)",
+                "openGl": "4.6",
+                "openCl": "3.0",
+                "vulkan": "1.4",
+                "cuda": "N/A",
+                "shaderModel": "6.6"
+              }
+            }
           ]
         }
       ]

@@ -78,8 +78,16 @@ export default function Gpu({ gpus, findCardById }) {
 							<th>Cores</th>
 							<th>TMUs</th>
 							<th>ROPs</th>
-							<th>SM Count</th>
-							<th>Tensor Cores</th>
+							<th>
+								{gpu.model.includes('Radeon') && "Compute Units"}
+								{gpu.model.includes('GeForce') && "SM Count"}
+								{gpu.model.includes('Arc') && "Execution Units"}
+							</th>
+							<th>
+								{gpu.model.includes('Radeon') && "Matrix Cores"}
+								{gpu.model.includes('GeForce') && "Tensor Cores"}
+								{gpu.model.includes('Arc') && "XMX Cores"}
+							</th>
 							<th>RT Cores</th>
 							<th>L1 Cache</th>
 							<th>L2 Cache</th>
@@ -88,8 +96,16 @@ export default function Gpu({ gpus, findCardById }) {
 							<td>{gpu.renderConfig.cores}</td>
 							<td>{gpu.renderConfig.tmus}</td>
 							<td>{gpu.renderConfig.rops}</td>
-							<td>{gpu.renderConfig.smCount}</td>
-							<td>{gpu.renderConfig.tensorCores}</td>
+							<td>
+								{gpu.model.includes('Radeon') && gpu.renderConfig.computeUnits}
+								{gpu.model.includes('GeForce') && gpu.renderConfig.smCount}
+								{gpu.model.includes('Arc') && gpu.renderConfig.executionUnits}
+							</td>
+							<td>
+								{gpu.model.includes('Radeon') && gpu.renderConfig.matrixCores}
+								{gpu.model.includes('GeForce') && gpu.renderConfig.tensorCores}
+								{gpu.model.includes('Arc') && gpu.renderConfig.xmxCores}
+							</td>
 							<td>{gpu.renderConfig.rtCores}</td>
 							<td>{gpu.renderConfig.l1Cache}</td>
 							<td>{gpu.renderConfig.l2Cache}</td>
